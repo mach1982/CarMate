@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Car Mate",
+  "description": "This extension allows the user to change the background color of the current page.",
+  "version": "1.0",
+  
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  
+  "permissions": [
+        "storage"
+    ],
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery-3.3.1.min.js","popup.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "car_19px.png",
+    "default_popup": "popup.html",
+    "dfault_title" : "Save your car's details "
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

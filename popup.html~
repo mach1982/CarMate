@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+	<title>Car Mate</title>
+	<script src="jquery-3.3.1.min.js"></script>
+
+      <script src="popup.js"></script>
+	 
+
+	</head>
+
+	<body>
+<div style="text-align: center;">	<h1>Car Mate!</h1></div>
+	
+		<div id="content">
+			
+				<div style="text-align: center;">
+				<input type="text" id="car_reg" placeholder="Car Reg"></div>
+				<br><br><br>
+	
+		
+			
+			<div style="text-align: center;">
+				
+				<input type="text" id="insure_no" placeholder="Insurance Number"></div>
+				<br><br><br>
+				
+			
+			
+			
+				<div style="text-align: center;">
+				<label>Insurance Expire Date</label>
+			<input type="date" id="insure_expire" >
+			<label id="insureance"></label>
+			
+		</div>
+		<br><br><br>
+		
+			
+			
+				<div style="text-align: center;">
+				<label>Tax Expire Date </label>
+				<input type="date" id="tax_expire" >
+				<label id="tax"></label>
+				
+				</div>
+				
+				<br><br><br>
+				
+			
+			
+			
+				<div style="text-align: center;">
+				<label>NCT Expire Date </label>
+				<input type="date"  id="nct_expire">
+				<label id="nct"></label>
+				</div>
+				<br><br>
+				
+				
+				<div style="text-align: center;"><button id="details">ADD/UPDATE</button></div>
+					
+			
+	
+	
+	
+	
+		</div>
+		
+		
+
+	</body>
+	
+</html>
